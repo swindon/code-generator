@@ -1,0 +1,19 @@
+{
+    "name": "swindon/code-generator",
+    "description": "Random code generator",
+    "authors": [
+        {
+            "name": "Scott Windon",
+            "email": "me@scottwindon.com"
+        }
+    ],
+    "require": {
+        "php": ">=7",
+    },
+    "autoload": {
+        "psr-4": {
+            "Swindon\\CodeGenerator\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
