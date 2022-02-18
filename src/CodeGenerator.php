@@ -127,10 +127,10 @@ class CodeGenerator {
      *
      * @return  CodeGenerator
      */
-    public function setAmbiguous(bool $removeAmbiguous = true, ?string $ambiguous_chars) : CodeGenerator
+    public function ambiguous(bool $useAmbiguous = true, ?string $ambiguous_chars) : CodeGenerator
     {
         if( $ambiguous_chars ) $this->ambiguous_chars = $ambiguous_chars;
-        $this->removeAmbiguous = $removeAmbiguous;
+        $this->removeAmbiguous = !$useAmbiguous;
         return $this;
     }
 
