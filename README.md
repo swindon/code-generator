@@ -2,6 +2,9 @@
 
 [<img src="https://exceloffthegrid.com/wp-content/uploads/2020/02/bmc-button.png" alt="Buy me a coffee" width="200"/>](https://www.buymeacoffee.com/scottwindon)
 
+## Install:
+`composer require swindon/code-generator`
+
 ## Usage:
 
 ### Single Code Generation:
