@@ -1,6 +1,7 @@
 {
     "name": "swindon/code-generator",
     "description": "Random code generator",
+    "license": "MIT",
     "authors": [
         {
             "name": "Scott Windon",
